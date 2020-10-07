@@ -1,6 +1,6 @@
 def find_even_values(src)
   index = 0
-  while index < src.count do 
+  while index < src.count do
     elemnt_count = 0
     while elemnt_count < src[index].count do
       if src[index][elemnt_count].even?
